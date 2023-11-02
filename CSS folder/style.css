@@ -5,14 +5,14 @@
 }
 
 .main-container{
-    background: url('../source/abid2.jpg' )  ;
+    background: url('../source/380502372_359588436542526_6063758760766256046_n.jpg' )  ;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     height: 100%;
     width: 100%;
     background-attachment: fixed;
-    filter: blur(10px);
+    filter: blur(6px);
     position: fixed;
     z-index: -111;
 
