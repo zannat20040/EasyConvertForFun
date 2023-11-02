@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyConvert</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="./CSS folder/style.css">
+    <link rel="stylesheet" href="./CSS folder/responsive.css" </head>
+
+<body>
+    <div class="main-container">
+      <div class="container">
+          <!-- navbar -->
+          <div>
+            <h1 class="title">EasyConvert</h1>
+        </div>
+        <!-- body -->
+        <div class="convert-container">
+
+            <!-- custom dropdown-->
+
+
+
+
+            <div class="convert-from">
+                <ul>
+                    <li id="customDropDown1" class="customDropDown "><a >Convert From</a>
+                        <ul class="menu">
+                            <li onclick="getFromText(event,'Hexa')"><a href="#">Hexa</a></li>
+                            <li onclick="getFromText(event,'Decimal')"><a href="#">Decimal</a></li>
+                            <li onclick="getFromText(event,'Binary')"><a href="#">Binary</a></li>
+                            <li onclick="getFromText(event,'Octa')"><a href="#">Octa</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            
+                <div>
+                    <input type="text" id="from-value" />
+                </div>
+            </div>
+            <div class="middle-btn">
+                <button id="convert-btn"><i class="fa-solid fa-arrow-down"></i></button>
+
+
+
+            </div>
+            <div class="convert-to">
+
+                <!-- custom dropdown-->
+
+                <ul>
+                    <li id="customDropDown2" class="customDropDown customDropDown2"><a href="#">Convert To</a>
+                        <ul class="menu menu2">
+                            <li onclick="getToText(event,'Hexa')"><a>Hexa</a></li>
+                            <li onclick="getToText(event,'Decimal')"><a href="#">Decimal</a></li>
+                            <li onclick="getToText(event,'Binary')"><a href="#">Binary</a></li>
+                            <li onclick="getToText(event,'Octa')"><a href="#">Octa</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="mt-10">
+                    <input type="text" class="border-black" id="to-value" value="124421" />
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./JS folder/index.js"></script>
+</body>
+
+</html>
