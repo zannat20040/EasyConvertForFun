@@ -5,7 +5,7 @@
 }
 
 .main-container{
-    background: url('../source/385529680_1574009446672541_2736502706240604966_n.jpg' )  ;
+    background: url('../source/abid2.jpg' )  ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -15,6 +15,7 @@
     filter: blur(3px);
     position: fixed;
     z-index: -111;
+
 }
 
 
