@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-.main-container{
+body{
     background: url('../source/385529680_1574009446672541_2736502706240604966_n.jpg' )  ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,11 +14,13 @@
     background-attachment: fixed;
 }
 
+
 .container {
 background-color: rgba(0, 0, 0, 0.801);
     margin: 0 auto;
     text-align: center;
     color: white;
+    height: 100vh;
 }
 .title {
     background-color: #ff21088e;
